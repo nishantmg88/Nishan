@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shree Sharada Basic School - Quality Education from ECD to Grade 8 in Bardiya, Nepal">
+    <meta name="keywords" content="school, education, bardiya, nepal, basic school, ecd, nursery">
+    <title>Shree Sharada Basic School - Quality Education in Bardiya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nepali:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="/img/logo.png" alt="School Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="lang-en">Shree Sharada Basic School</span>
+                        <span class="lang-np" style="display: none;">श्री शारदा आधारभूत विद्यालय</span>
+                    </div>
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#" class="lang-en">Home</a><a href="#" class="lang-np" style="display: none;">गृहपृष्ठ</a></li>
+                    <li><a href="#about" class="lang-en">About</a><a href="#about" class="lang-np" style="display: none;">हाम्रो बारे</a></li>
+                    <li><a href="#principal-message" class="lang-en">Principal's Message</a><a href="#principal-message" class="lang-np" style="display: none;">प्रधानाध्यापकको सन्देश</a></li>
+                    <li><a href="#programs" class="lang-en">Programs</a><a href="#programs" class="lang-np" style="display: none;">कार्यक्रमहरू</a></li>
+                    <li><a href="#gallery" class="lang-en">Gallery</a><a href="#gallery" class="lang-np" style="display: none;">ग्यालेरी</a></li>
+                    <li><a href="#contact" class="lang-en">Contact</a><a href="#contact" class="lang-np" style="display: none;">सम्पर्क</a></li>
+                    <li style="margin-left: 40px;"><a href="#" class="lang-en" onclick="openAdmissionModal()">Admission</a><a href="#" class="lang-np" style="display: none;" onclick="openAdmissionModal()">भर्ना</a></li>
+                </ul>
+                
+                <div class="nav-buttons">
+                    <button id="theme-toggle" class="btn btn-outline">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun" style="display: none;"></i>
+                    </button>
+                    <button id="language-toggle" class="btn btn-outline">
+                        <span class="lang-en">नेपाली</span>
+                        <span class="lang-np" style="display: none;">English</span>
+                    </button>
+                </div>
+                
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="lang-en">Welcome to Shree Sharada Basic School</h1>
+                <h1 class="lang-np" style="display: none;">श्री शारदा आधारभूत विद्यालयमा स्वागतम्</h1>
+                <p class="lang-en">Nurturing young minds from ECD to Grade 8 with quality education, experienced teachers, and a caring environment in the heart of Bardiya.</p>
+                <p class="lang-np" style="display: none;">बर्दियाको मुटुमा गुणस्तरीय शिक्षा, अनुभवी शिक्षकहरू र हेरचाहपूर्ण वातावरणका साथ ECD देखि कक्षा ८ सम्मका युवा दिमागहरूको पालनपोषण।</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary lang-en" onclick="openAdmissionModal()">Apply for Admission</button>
+                    <button class="btn btn-primary lang-np" style="display: none;" onclick="openAdmissionModal()">भर्नाको लागि आवेदन गर्नुहोस्</button>
+                    <a href="#about" class="btn btn-outline lang-en">Learn More</a>
+                    <a href="#about" class="btn btn-outline lang-np" style="display: none;">थप जान्नुहोस्</a>
+                </div>
+            </div>
+        </div>
+        <div class="particles" id="particles"></div>
+    </section>
+
+    <!-- Principal's Message Section -->
+    <section id="principal-message" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="lang-en">Principal's Message</h2>
+                <h2 class="lang-np" style="display: none;">प्रधानाध्यापकको सन्देश</h2>
+            </div>
+            
+            <div class="principal-message-content">
+                <div class="principal-image zoom-in">
+                    <img src="/img/prin.jpg" alt="Principal Sanu Kanchha Tamang">
+                </div>
+                <div class="principal-text slide-in-right">
+                    <h3 class="lang-en">Mr. Sanu Kanchha Tamang</h3>
+                    <h3 class="lang-np" style="display: none;">श्री सानु कान्छा तामाङ</h3>
+                    <p class="title lang-en">Principal</p>
+                    <p class="title lang-np" style="display: none;">प्रधानाध्यापक</p>
+                    
+                    <div class="message">
+                        <p class="lang-en">Dear Students, Parents, and Community Members,</p>
+                        <p class="lang-np" style="display: none;">प्रिय विद्यार्थीहरू, अभिभावकहरू र समुदायका सदस्यहरू,</p>
+                        
+                        <p class="lang-en">Welcome to Shree Sharada Basic School! As the Principal, I am honored to lead this institution that has been serving our community with dedication and excellence. Our school provides quality education from Early Childhood Development (ECD) through Grade 8, focusing on holistic development of each child.</p>
+                        <p class="lang-np" style="display: none;">श्री शारदा आधारभूत विद्यालयमा स्वागतम्! प्रधानाध्यापकको रूपमा, म यस संस्थाको नेतृत्व गर्न पाउँदा गर्व महसुस गर्छु जसले हाम्रो समुदायलाई समर्पण र उत्कृष्टताका साथ सेवा गर्दै आएको छ। हाम्रो विद्यालयले प्रारम्भिक बाल विकास (ECD) देखि कक्षा ८ सम्म गुणस्तरीय शिक्षा प्रदान गर्दछ, प्रत्येक बच्चाको समग्र विकासमा केन्द्रित छ।</p>
+                        
+                        <p class="lang-en">We are committed to creating a nurturing environment where every student can thrive academically, socially, and emotionally. Together, let's build a brighter future for our children.</p>
+                        <p class="lang-np" style="display: none;">हामी एक पालनपोषणकारी वातावरण सिर्जना गर्न प्रतिबद्ध छौं जहाँ प्रत्येक विद्यार्थी शैक्षिक, सामाजिक र भावनात्मक रूपमा फस्टाउन सक्छ। सँगै मिलेर हाम्रा बच्चाहरूको लागि उज्ज्वल भविष्य निर्माण गरौं।</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +977 9868937837</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="lang-en">About Our School</h2>
+                <h2 class="lang-np" style="display: none;">हाम्रो विद्यालयको बारेमा</h2>
+                <p class="lang-en">Committed to providing quality education and nurturing young minds in Bardiya.</p>
+                <p class="lang-np" style="display: none;">बर्दियामा गुणस्तरीय शिक्षा प्रदान गर्न र युवा दिमागहरूको पालनपोषण गर्न प्रतिबद्ध।</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image zoom-in">
+                    <img src="/img/School2.jpg" alt="School Building">
+                </div>
+                <div class="about-text slide-in-right">
+                    <h3 class="lang-en">Why Choose Shree Sharada Basic School?</h3>
+                    <h3 class="lang-np" style="display: none;">श्री शारदा आधारभूत विद्यालयलाई किन छान्ने?</h3>
+                    <p class="lang-en">Located in Thakurbaba-5, Shahipur, Bardiya, our school is dedicated to providing comprehensive education from Early Childhood Development through Grade 8. We focus on developing critical thinking, creativity, and moral values in our students.</p>
+                    <p class="lang-np" style="display: none;">ठाकुरबाबा-५, शाहीपुर, बर्दियामा अवस्थित, हाम्रो विद्यालय प्रारम्भिक बाल विकासदेखि कक्षा ८ सम्म व्यापक शिक्षा प्रदान गर्न समर्पित छ। हामी हाम्रा विद्यार्थीहरूमा आलोचनात्मक सोच, रचनात्मकता र नैतिक मूल्यहरू विकास गर्नमा केन्द्रित छौं।</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <div>
+                                <h4 class="lang-en">Qualified Teachers</h4>
+                                <h4 class="lang-np" style="display: none;">योग्य शिक्षकहरू</h4>
+                                <p class="lang-en">Experienced and dedicated teaching staff</p>
+                                <p class="lang-np" style="display: none;">अनुभवी र समर्पित शिक्षण कर्मचारी</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-child"></i>
+                            <div>
+                                <h4 class="lang-en">ECD to Grade 8</h4>
+                                <h4 class="lang-np" style="display: none;">ECD देखि कक्षा ८</h4>
+                                <p class="lang-en">Complete basic education under one roof</p>
+                                <p class="lang-np" style="display: none;">एकै छानामुनि पूर्ण आधारभूत शिक्षा</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4 class="lang-en">Caring Environment</h4>
+                                <h4 class="lang-np" style="display: none;">हेरचाहपूर्ण वातावरण</h4>
+                                <p class="lang-en">Safe and nurturing learning atmosphere</p>
+                                <p class="lang-np" style="display: none;">सुरक्षित र पालनपोषणकारी सिकाइ वातावरण</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4 class="lang-en">Holistic Development</h4>
+                                <h4 class="lang-np" style="display: none;">समग्र विकास</h4>
+                                <p class="lang-en">Focus on academic and personal growth</p>
+                                <p class="lang-np" style="display: none;">शैक्षिक र व्यक्तिगत विकासमा केन्द्रित</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section services">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="lang-en">Our Programs</h2>
+                <h2 class="lang-np" style="display: none;">हाम्रा कार्यक्रमहरू</h2>
+                <p class="lang-en">Comprehensive education programs from early childhood to grade 8.</p>
+                <p class="lang-np" style="display: none;">प्रारम्भिक बाल्यकालदेखि कक्षा ८ सम्मका व्यापक शिक्षा कार्यक्रमहरू।</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card zoom-in">
+                    <div class="service-image">
+                        <img src="/img/red.jpg" alt="ECD Program">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="lang-en">Early Childhood Development (ECD)</h3>
+                        <h3 class="lang-np" style="display: none;">प्रारम्भिक बाल विकास (ECD)</h3>
+                        <p class="lang-en">Foundation learning through play-based activities and creative exploration for young learners.</p>
+                        <p class="lang-np" style="display: none;">साना सिकारुहरूका लागि खेलमा आधारित गतिविधिहरू र रचनात्मक अन्वेषणको माध्यमबाट आधारभूत सिकाइ।</p>
+                    </div>
+                </div>
+                
+                <div class="service-card zoom-in" style="transition-delay: 0.1s;">
+                    <div class="service-image">
+                        <img src="/img/student.jpg" alt="Nursery Program">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="lang-en">Nursery Program</h3>
+                        <h3 class="lang-np" style="display: none;">नर्सरी कार्यक्रम</h3>
+                        <p class="lang-en">Structured learning environment with focus on basic literacy, numeracy, and social skills development.</p>
+                        <p class="lang-np" style="display: none;">आधारभूत साक्षरता, संख्या ज्ञान र सामाजिक सीप विकासमा केन्द्रित संरचित सिकाइ वातावरण।</p>
+                    </div>
+                </div>
+                
+                <div class="service-card zoom-in" style="transition-delay: 0.2s;">
+                    <div class="service-image">
+                        <img src="/img/red.jpg" alt="Primary Education">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="lang-en">Primary Education (Grade 1-5)</h3>
+                        <h3 class="lang-np" style="display: none;">प्राथमिक शिक्षा (कक्षा १-५)</h3>
+                        <p class="lang-en">Comprehensive curriculum covering all core subjects with emphasis on building strong academic foundations.</p>
+                        <p class="lang-np" style="display: none;">बलियो शैक्षिक आधारहरू निर्माणमा जोड दिएर सबै मुख्य विषयहरू समेट्ने व्यापक पाठ्यक्रम।</p>
+                    </div>
+                </div>
+                
+                <div class="service-card zoom-in" style="transition-delay: 0.3s;">
+                    <div class="service-image">
+                        <img src="/img/act.jpg" alt="Lower Secondary">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="lang-en">Lower Secondary (Grade 6-8)</h3>
+                        <h3 class="lang-np" style="display: none;">निम्न माध्यमिक (कक्षा ६-८)</h3>
+                        <p class="lang-en">Advanced learning with specialized subjects preparing students for higher secondary education.</p>
+                        <p class="lang-np" style="display: none;">उच्च माध्यमिक शिक्षाको लागि विद्यार्थीहरूलाई तयार गर्ने विशेष विषयहरूसहित उन्नत सिकाइ।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="lang-en">School Gallery</h2>
+                <h2 class="lang-np" style="display: none;">विद्यालय ग्यालेरी</h2>
+                <p class="lang-en">Explore our school facilities, activities, and memorable moments.</p>
+                <p class="lang-np" style="display: none;">हाम्रो विद्यालयका सुविधाहरू, गतिविधिहरू र स्मरणीय क्षणहरू अन्वेषण गर्नुहोस्।</p>
+            </div>
+            
+            <!-- Gallery Filter -->
+            <div class="gallery-filter fade-in">
+                <div class="filter-buttons" id="galleryFilter">
+                    <!-- Filter buttons will be dynamically loaded -->
+                </div>
+            </div>
+            
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="lang-en">Contact Us</h2>
+                <h2 class="lang-np" style="display: none;">हामीलाई सम्पर्क गर्नुहोस्</h2>
+                <p class="lang-en">Get in touch with us for any inquiries or information.</p>
+                <p class="lang-np" style="display: none;">कुनै पनि जानकारी वा सोधपुछको लागि हामीसँग सम्पर्क गर्नुहोस्।</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info slide-in-left">
+                    <h3 class="lang-en">Get In Touch</h3>
+                    <h3 class="lang-np" style="display: none;">सम्पर्कमा रहनुहोस्</h3>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 class="lang-en">Our Location</h4>
+                                <h4 class="lang-np" style="display: none;">हाम्रो स्थान</h4>
+                                <p class="lang-en">Thakurbaba-5, Shahipur, Bardiya, Nepal</p>
+                                <p class="lang-np" style="display: none;">ठाकुरबाबा-५, शाहीपुर, बर्दिया, नेपाल</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4 class="lang-en">Phone Number</h4>
+                                <h4 class="lang-np" style="display: none;">फोन नम्बर</h4>
+                                <p>+977 9868937837</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-user-tie"></i>
+                            <div>
+                                <h4 class="lang-en">Principal</h4>
+                                <h4 class="lang-np" style="display: none;">प्रधानाध्यापक</h4>
+                                <p class="lang-en">Mr. Sanu Kanchha Tamang</p>
+                                <p class="lang-np" style="display: none;">श्री सानु कान्छा तामाङ</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4 class="lang-en">School Hours</h4>
+                                <h4 class="lang-np" style="display: none;">विद्यालय समय</h4>
+                                <p class="lang-en">Sunday-Friday: 10AM - 4PM</p>
+                                <p class="lang-np" style="display: none;">आइतबार-शुक्रबार: बिहान १० बजे - बेलुका ४ बजे</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form slide-in-left">
+                  <h3 class="lang-en">Send us a Message</h3>
+                  <h3 class="lang-np" style="display: none;">हामीलाई सन्देश पठाउनुहोस्</h3>
+                  
+                  <form id="contactForm">
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="contact-name" class="lang-en">Your Name</label>
+                        <label for="contact-name" class="lang-np" style="display: none;">तपाईंको नाम</label>
+                        <input type="text" id="contact-name" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="contact-email" class="lang-en">Email Address</label>
+                        <label for="contact-email" class="lang-np" style="display: none;">इमेल ठेगाना</label>
+                        <input type="email" id="contact-email" class="form-control" required>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="contact-subject" class="lang-en">Subject</label>
+                      <label for="contact-subject" class="lang-np" style="display: none;">विषय</label>
+                      <input type="text" id="contact-subject" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="contact-message" class="lang-en">Message</label>
+                      <label for="contact-message" class="lang-np" style="display: none;">सन्देश</label>
+                      <textarea id="contact-message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary lang-en">Send Message</button>
+                    <button type="submit" class="btn btn-primary lang-np" style="display: none;">सन्देश पठाउनुहोस्</button>
+                  </form>
+                </div>
+                
+                <div class="map-container slide-in-right">
+                    <h3 class="lang-en">Find Us on Map</h3>
+                    <h3 class="lang-np" style="display: none;">नक्सामा हामीलाई फेला पार्नुहोस्</h3>
+                    <div class="map-placeholder">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1707.9991522516607!2d81.29954640485282!3d28.393359796628328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39989d5ffa3158a7%3A0x4ffe55b177ff6!2sSharada%20Basic%20School!5e1!3m2!1sen!2snp!4v1751492002671!5m2!1sen!2snp"
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 10px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Modal -->
+    <div id="admissionModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="lang-en">Admission Application</h2>
+                <h2 class="lang-np" style="display: none;">भर्ना आवेदन</h2>
+                <span class="close" onclick="closeAdmissionModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="admissionForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentName" class="lang-en">Student's Full Name</label>
+                            <label for="studentName" class="lang-np" style="display: none;">विद्यार्थीको पुरा नाम</label>
+                            <input type="text" id="studentName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="grade" class="lang-en">Grade Applying For</label>
+                            <label for="grade" class="lang-np" style="display: none;">भर्ना हुने कक्षा</label>
+                            <select id="grade" class="form-control" required>
+                                <option value="" class="lang-en">Select Grade</option>
+                                <option value="" class="lang-np" style="display: none;">कक्षा छान्नुहोस्</option>
+                                <option value="ecd" class="lang-en">ECD</option>
+                                <option value="ecd" class="lang-np" style="display: none;">ECD</option>
+                                <option value="nursery" class="lang-en">Nursery</option>
+                                <option value="nursery" class="lang-np" style="display: none;">नर्सरी</option>
+                                <option value="1" class="lang-en">Grade 1</option>
+                                <option value="1" class="lang-np" style="display: none;">कक्षा १</option>
+                                <option value="2" class="lang-en">Grade 2</option>
+                                <option value="2" class="lang-np" style="display: none;">कक्षा २</option>
+                                <option value="3" class="lang-en">Grade 3</option>
+                                <option value="3" class="lang-np" style="display: none;">कक्षा ३</option>
+                                <option value="4" class="lang-en">Grade 4</option>
+                                <option value="4" class="lang-np" style="display: none;">कक्षा ४</option>
+                                <option value="5" class="lang-en">Grade 5</option>
+                                <option value="5" class="lang-np" style="display: none;">कक्षा ५</option>
+                                <option value="6" class="lang-en">Grade 6</option>
+                                <option value="6" class="lang-np" style="display: none;">कक्षा ६</option>
+                                <option value="7" class="lang-en">Grade 7</option>
+                                <option value="7" class="lang-np" style="display: none;">कक्षा ७</option>
+                                <option value="8" class="lang-en">Grade 8</option>
+                                <option value="8" class="lang-np" style="display: none;">कक्षा ८</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentName" class="lang-en">Parent/Guardian Name</label>
+                            <label for="parentName" class="lang-np" style="display: none;">अभिभावकको नाम</label>
+                            <input type="text" id="parentName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="lang-en">Contact Number</label>
+                            <label for="phone" class="lang-np" style="display: none;">सम्पर्क नम्बर</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address" class="lang-en">Address</label>
+                        <label for="address" class="lang-np" style="display: none;">ठेगाना</label>
+                        <input type="text" id="address" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="lang-en">Additional Information</label>
+                        <label for="message" class="lang-np" style="display: none;">अतिरिक्त जानकारी</label>
+                        <textarea id="message" class="form-control" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary lang-en">Submit Application</button>
+                    <button type="submit" class="btn btn-primary lang-np" style="display: none;">आवेदन पेश गर्नुहोस्</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="success-modal">
+        <div class="success-modal-content">
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="lang-en">Success!</h3>
+            <h3 class="lang-np" style="display: none;">सफल!</h3>
+            <p id="successMessage" class="lang-en">Your message has been sent successfully. We will contact you soon!</p>
+            <p id="successMessageNp" class="lang-np" style="display: none;">तपाईंको सन्देश सफलतापूर्वक पठाइएको छ। हामी चाँडै तपाईंसँग सम्पर्क गर्नेछौं!</p>
+            <button class="btn btn-primary" onclick="closeSuccessModal()">
+                <span class="lang-en">OK</span>
+                <span class="lang-np" style="display: none;">ठीक छ</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" onclick="previousImage()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-next" onclick="nextImage()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="lightbox-image-container">
+                <img id="lightboxImage" src="/img/School2.jpg" alt="">
+                <div class="lightbox-info">
+                    <h3 id="lightboxTitle"></h3>
+                    <p id="lightboxDescription"></p>
+                </div>
+            </div>
+            <div class="lightbox-counter">
+                <span id="lightboxCounter"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="/img/logo.png" alt="School Logo" class="footer-logo-img">
+                        <div>
+                            <h3 class="lang-en">Shree Sharada Basic School</h3>
+                            <h3 class="lang-np" style="display: none;">श्री शारदा आधारभूत विद्यालय</h3>
+                        </div>
+                    </div>
+                    <p class="lang-en">Nurturing young minds with quality education from ECD to Grade 8 in Bardiya, Nepal.</p>
+                    <p class="lang-np" style="display: none;">बर्दिया, नेपालमा ECD देखि कक्षा ८ सम्म गुणस्तरीय शिक्षाका साथ युवा दिमागहरूको पालनपोषण।</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="lang-en">Quick Links</h3>
+                    <h3 class="lang-np" style="display: none;">छिटो लिङ्कहरू</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="lang-en"><i class="fas fa-chevron-right"></i> Home</a><a href="#" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> गृहपृष्ठ</a></li>
+                        <li><a href="#about" class="lang-en"><i class="fas fa-chevron-right"></i> About Us</a><a href="#about" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> हाम्रो बारे</a></li>
+                        <li><a href="#principal-message" class="lang-en"><i class="fas fa-chevron-right"></i> Principal's Message</a><a href="#principal-message" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> प्रधानाध्यापकको सन्देश</a></li>
+                        <li><a href="#programs" class="lang-en"><i class="fas fa-chevron-right"></i> Programs</a><a href="#programs" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> कार्यक्रमहरू</a></li>
+                        <li><a href="#gallery" class="lang-en"><i class="fas fa-chevron-right"></i> Gallery</a><a href="#gallery" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> ग्यालेरी</a></li>
+                        <li><a href="#contact" class="lang-en"><i class="fas fa-chevron-right"></i> Contact</a><a href="#contact" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> सम्पर्क</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="lang-en">Programs</h3>
+                    <h3 class="lang-np" style="display: none;">कार्यक्रमहरू</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="lang-en"><i class="fas fa-chevron-right"></i> ECD Program</a><a href="#" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> ECD कार्यक्रम</a></li>
+                        <li><a href="#" class="lang-en"><i class="fas fa-chevron-right"></i> Nursery</a><a href="#" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> नर्सरी</a></li>
+                        <li><a href="#" class="lang-en"><i class="fas fa-chevron-right"></i> Primary (1-5)</a><a href="#" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> प्राथमिक (१-५)</a></li>
+                        <li><a href="#" class="lang-en"><i class="fas fa-chevron-right"></i> Lower Secondary (6-8)</a><a href="#" class="lang-np" style="display: none;"><i class="fas fa-chevron-right"></i> निम्न माध्यमिक (६-८)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="lang-en">Contact Info</h3>
+                    <h3 class="lang-np" style="display: none;">सम्पर्क जानकारी</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Thakurbaba-5, Shahipur, Bardiya</p>
+                        <p><i class="fas fa-phone"></i> +977 9868937837</p>
+                        <p><i class="fas fa-user-tie"></i> <span class="lang-en">Principal: Mr. Sanu Kanchha Tamang</span><span class="lang-np" style="display: none;">प्रधानाध्यापक: श्री सानु कान्छा तामाङ</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="lang-en">&copy; <span id="currentYear"></span> Shree Sharada Basic School. All Rights Reserved.</p>
+                <p class="lang-np" style="display: none;">&copy; <span id="currentYearNp"></span> श्री शारदा आधारभूत विद्यालय। सर्वाधिकार सुरक्षित।</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/gallery.js"></script>
+    <script>
+        document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+        document.getElementById("currentYearNp").innerHTML = convertToNepaliNumber(new Date().getFullYear());
+
+        function convertToNepaliNumber(number) {
+            const nepaliDigits = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
+            const numberString = number.toString();
+            let nepaliNumber = '';
+
+            for (let i = 0; i < numberString.length; i++) {
+                const digit = parseInt(numberString[i]);
+                nepaliNumber += nepaliDigits[digit];
+            }
+
+            return nepaliNumber;
+        }
+    </script>
+</body>
+</html>
