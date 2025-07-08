@@ -194,8 +194,8 @@ const schoolData = {
   gallery: [
     {
       id: 1,
-      src: "./img/School2.jpg",
-      thumb: "./img/School2.jpg",
+      src: "../img/School2.jpg",
+      thumb: "../img/School2.jpg",
       title: {
         en: "School Building",
         np: "विद्यालय भवन",
@@ -208,8 +208,8 @@ const schoolData = {
     },
     {
       id: 2,
-      src: "./img/red.jpg",
-      thumb: "./img/red.jpg",
+      src: "../img/red.jpg",
+      thumb: "../img/red.jpg",
       title: {
         en: "Students in Classroom",
         np: "कक्षाकोठामा विद्यार्थीहरू",
@@ -222,8 +222,8 @@ const schoolData = {
     },
     {
       id: 3,
-      src: "./img/red.jpg",
-      thumb: "./img/red.jpg",
+      src: "../img/red.jpg",
+      thumb: "../img/red.jpg",
       title: {
         en: "Science Laboratory",
         np: "विज्ञान प्रयोगशाला",
@@ -236,8 +236,8 @@ const schoolData = {
     },
     {
       id: 4,
-      src: "./img/student.jpg",
-      thumb: "./img/student.jpg",
+      src: "../img/student.jpg",
+      thumb: "../img/student.jpg",
       title: {
         en: "Library",
         np: "पुस्तकालय",
@@ -250,11 +250,11 @@ const schoolData = {
     },
     {
       id: 5,
-      src: "./img/act.jpg",
-      thumb: "./img/act.jpg",
+      src: "../img/act.jpg",
+      thumb: "../img/act.jpg",
       title: {
         en: "Sports Activities",
-        np: "खेलकुद गतिविधिहरू",
+        np: "खेलकुद तिविधिहरू",
       },
       description: {
         en: "Students enjoying various sports and physical activities",
@@ -264,8 +264,8 @@ const schoolData = {
     },
     {
       id: 6,
-      src: "./img/act2.jpg",
-      thumb: "./img/act2.jpg",
+      src: "../img/act2.jpg",
+      thumb: "../img/act2.jpg",
       title: {
         en: "Cultural Program",
         np: "सांस्कृतिक कार्यक्रम",
@@ -278,8 +278,8 @@ const schoolData = {
     },
     {
       id: 7,
-      src: "./img/red.jpg",
-      thumb: "./img/red.jpg",
+      src: "../img/red.jpg",
+      thumb: "../img/red.jpg",
       title: {
         en: "Computer Lab",
         np: "कम्प्युटर प्रयोगशाला",
@@ -292,8 +292,8 @@ const schoolData = {
     },
     {
       id: 8,
-      src: "./img/school.jpg",
-      thumb: "./img/school.jpg",
+      src: "../img/school.jpg",
+      thumb: "../img/school.jpg",
       title: {
         en: "Playground",
         np: "खेल मैदान",
